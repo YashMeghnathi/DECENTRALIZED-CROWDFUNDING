@@ -78,7 +78,6 @@ This crowdfunding contract allows a manager to set up a campaign with a specific
    Example:
    ```solidity
    Crowdfunding crowdfunding = new Crowdfunding("Help Build a School", 30 days);
-   ## How to Use
 
 1. **Donate to the Campaign**  
    Users can donate to the campaign using the `donate` function. Each donation must be at least 10 Ether and can only be made before the campaign deadline.
