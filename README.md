@@ -78,10 +78,18 @@ This crowdfunding contract allows a manager to set up a campaign with a specific
    Example:
    ```solidity
    Crowdfunding crowdfunding = new Crowdfunding("Help Build a School", 30 days);
-2. **Donate to the Campaign: Users can donate using the donate function. Each donation must be at least 10 Ether.
+   ## How to Use
 
-3. **Manager Withdraws Funds: Once the donation period ends, the manager can withdraw the funds using the withdraw function.
+1. **Donate to the Campaign**  
+   Users can donate to the campaign using the `donate` function. Each donation must be at least 10 Ether and can only be made before the campaign deadline.
 
-4. **Update Campaign Purpose: The manager can update the campaign purpose anytime using the updatePurpose function.
+2. **Manager Withdraws Funds**  
+   Once the donation period ends, the manager can withdraw the funds using the `withdraw` function. All the funds raised during the campaign will be transferred to the manager's address.
 
-5. **Track Donations: Donors can check their donation history using donatorshistory, and anyone can see the total number of unique donors via returndonators.
+3. **Update Campaign Purpose**  
+   The manager can update the purpose of the campaign anytime using the `updatePurpose` function. This allows the manager to change the cause or goal of the campaign during the crowdfunding period.
+
+4. **Track Donations**  
+   - Donors can check their donation history using the `donatorshistory` function. This will return the total amount donated by the sender's address.
+   - Anyone can see the total number of unique donors via the `returndonators` function, which provides the total count of individual donators.
+
