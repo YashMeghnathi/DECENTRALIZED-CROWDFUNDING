@@ -93,3 +93,12 @@ This crowdfunding contract allows a manager to set up a campaign with a specific
    - Donors can check their donation history using the `donatorshistory` function. This will return the total amount donated by the sender's address.
    - Anyone can see the total number of unique donors via the `returndonators` function, which provides the total count of individual donators.
 
+     ## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Fork
+
+Feel free to fork this repository and modify it for your own purposes. Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+
