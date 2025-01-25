@@ -1,4 +1,4 @@
-# DECENTRALIZED CROWDFUNDING
+# Decentralized Crowdfunding
 
 Decentralized crowdfunding is a method of raising funds through blockchain technology, allowing direct contributions from supporters without intermediaries.
 
@@ -12,15 +12,7 @@ The Crowdfunding Contract is a decentralized platform on the Ethereum blockchain
 
 ## Objective
 
-The primary objective of the Crowdfunding Contract is to create a decentralized, secure, and transparent platform for fundraising. By using blockchain technology, the contract removes the need for intermediaries, ensuring that all transactions are directly between the donors and the campaign manager. Key objectives of the contract include:
-
-- **Decentralized Donations**: All donations are processed directly on the blockchain, removing the need for centralized intermediaries.
-- **Transparency**: The donation history, amount raised, and contributors are fully visible on the blockchain, ensuring transparency.
-- **Security**: The funds are safely stored in the contract until the manager withdraws them after the campaign deadline.
-- **Manager Flexibility**: The manager has the flexibility to update the campaign's purpose as needed during the donation period.
-- **Efficient Fund Withdrawal**: Once the donation period ends, the manager can withdraw the funds, providing an easy and secure method to access the raised funds.
-
-This contract provides an essential framework for running crowdfunding campaigns with complete transparency and trust, leveraging the security and immutability of the Ethereum blockchain.
+The primary objective of the Crowdfunding Contract is to provide a decentralized, secure, and transparent platform for raising funds. By leveraging blockchain technology, it eliminates intermediaries, ensuring direct donations between supporters and the campaign manager. The contract ensures transparency by tracking donations and contributors on the blockchain, while offering the manager flexibility to update the campaign's purpose and withdraw funds after the campaign ends.
 
 ## Features
 
