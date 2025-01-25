@@ -8,22 +8,7 @@ This is a smart contract for managing a crowdfunding campaign on the Ethereum bl
 
 ## Overview
 
-The Crowdfunding Contract is a decentralized platform designed to facilitate fundraising campaigns on the Ethereum blockchain. It allows anyone to contribute directly to a cause, project, or initiative without the need for intermediaries like banks or traditional crowdfunding platforms. By utilizing the Ethereum blockchain, this contract ensures that all transactions are secure, transparent, and immutable.
-
-With this contract, the campaign manager sets a fundraising goal and a specific deadline for contributions. The contract automatically accepts Ether donations from supporters and tracks the total funds raised as well as the contributors. This eliminates any risk of fraud or mismanagement of funds by central parties, offering a trustless solution for both the campaign manager and donors.
-
-The crowdfunding process is simple:
-1. The manager creates a campaign, specifying the campaign's purpose and the deadline by which donations will be accepted.
-2. Donors can contribute any amount of Ether, as long as they do so before the deadline.
-3. Once the campaign ends, the manager has the ability to withdraw the raised funds and use them for the specified purpose.
-
-In addition to these core features, the contract offers flexibility for the campaign manager to update the campaign’s purpose during the donation period. This ensures that if the campaign needs to pivot or if the focus needs to change, the contract can accommodate that.
-
-The contract also includes tracking capabilities, such as the ability to view the total number of unique donors and their individual contributions. This transparency fosters trust between the campaign manager and the contributors, as everyone can easily verify the funds raised and who has donated.
-
-Key features such as event emissions and restrictions on donations after the deadline further enhance the integrity of the process, ensuring that only valid transactions are recorded and that the manager cannot withdraw funds until the campaign period has concluded.
-
-Ultimately, the Crowdfunding Contract leverages blockchain technology to make the process of crowdfunding more transparent, secure, and decentralized, helping both managers and donors participate in a more trustworthy environment. This contract can be applied to various types of fundraising campaigns, including charitable causes, startup funding, and community projects, while reducing the reliance on third-party platforms or financial institutions.
+The Crowdfunding Contract is a decentralized platform on the Ethereum blockchain designed to enable secure, transparent fundraising campaigns. It allows users to donate directly to a cause, with the campaign manager controlling the campaign’s purpose and fund withdrawal after the donation period ends. Donations are tracked and only accepted before the deadline, ensuring full transparency and eliminating the need for intermediaries. The contract allows the manager to update the campaign's purpose and withdraw funds once the goal is reached, providing a flexible and secure solution for fundraising.
 
 ## Objective
 
