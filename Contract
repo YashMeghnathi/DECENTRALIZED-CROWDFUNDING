@@ -75,8 +75,10 @@ contract Crowdfunding is ReentrancyGuard{
     
 }
 
+
+// this are the features i can add
 // can add minimum donation limit now it is 10 ether fix 
-//but with changing purpose can change it just add it in constructor
+//but with changing purpose can change it //just add it in constructor
 // can add refund function
 // can add total funds raised
 // can add donation goal
